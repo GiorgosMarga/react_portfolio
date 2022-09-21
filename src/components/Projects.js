@@ -14,7 +14,7 @@ const Projects = () => {
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 mt-10 md:mt-24">
         <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
           <motion.img
-            className="h-64 w-64 md:h-64 md:w-96"
+            className="h-56 w-80 md:h-64 md:w-[500px] rounded-xl"
             initial={{
               y: -300,
               opacity: 0,
@@ -24,7 +24,7 @@ const Projects = () => {
             }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            src="https://uploads-ssl.webflow.com/5fcc0b14408d2b45610a16e6/60bfadd5a5822950647cac1b_This%20Is%20Hulu%20Masthead.jpg"
+            src="https://play-lh.googleusercontent.com/4whGAVjZGrrlNxzheKAfBXrxggtyAb4euWLeQI8fDfVfdnFEZjE0DZTJ8DKoh64pqcIa"
             alt="Project"
           />
           <div className="space-y-10 px-0 md:px-10 max-w-6xl">
@@ -50,7 +50,7 @@ const Projects = () => {
         </div>
         <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
           <motion.img
-            className="h-64 w-64 md:h-64 md:w-96"
+            className="h-56 w-80 md:h-64 md:w-[500px] rounded-xl"
             initial={{
               y: -300,
               opacity: 0,
@@ -88,7 +88,7 @@ const Projects = () => {
         </div>
         <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
           <motion.img
-            className="h-64 w-64 md:h-64 md:w-96"
+            className="h-56 w-80 md:h-64 md:w-[500px] rounded-xl"
             initial={{
               y: -300,
               opacity: 0,
