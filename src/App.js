@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import ContactMe from "./components/ContactMe";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-[#161b33] h-screen text-white snap-mandatory snap-y overflow-y-scroll z-0 overflow-x-hidden">
+      <Header />
+
+      <section id="hero" className="snap-center">
+        <Hero />
+      </section>
+
+      <section id="about" className="snap-center">
+        <About />
+      </section>
+
+      <section id="skills" className="snap-start">
+        <Skills />
+      </section>
+
+      <section id="projects" className="snap-start">
+        <Projects />
+      </section>
+
+      <section id="contact" className="snap-start">
+        <ContactMe />
+      </section>
     </div>
   );
 }
