@@ -33,7 +33,7 @@ const ContactMe = () => {
         <div className="space-y-5">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="h-7 w-7 animate-pulse text-[#0d0c1d]" />
-            <p className="text-2xl">+306970067873</p>
+            <p className="text-2xl">+306978067873</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="h-7 w-7 animate-pulse text-[#0d0c1d]" />
