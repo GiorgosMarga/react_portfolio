@@ -45,7 +45,7 @@ const ContactMe = () => {
           </div>
         </div>
         <form
-          className="flex flex-col space-y-2 w-fit mx-auto"
+          className="flex flex-col space-y-2 w-fit mx-auto pt-5"
           onSubmit={handleSubmit(onSubmit)}
         >
           <div className="space-x-2 flex">
